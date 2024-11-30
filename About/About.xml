@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <name>No Manhunting Housecats</name>
+  <description>Title. Supports vanilla, Vanilla Animals Expanded, and No Gimmicks Just Tortie. For a canine equivalent, see All Dogs Are Good Bois: https://steamcommunity.com/sharedfiles/filedetails/?id=2601296065
+
+  Illustration by Yayangart via Pixabay.
+</description>
+  <author>HeatherAthebyne</author>
+  <supportedVersions>
+    <li>1.4</li>
+    <li>1.5</li>
+  </supportedVersions>
+  <packageId>heatherathebyne.nomanhuntinghousecats</packageId>
+  <loadAfter>
+    <li>vanillaexpanded.vanillaanimalsexpanded</li>
+    <li>sirmashedpotato.tortie</li>
+  </loadAfter>
+</ModMetaData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/PawnKindDef[defName="SMP_Tortie"]/canArriveManhunter</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/PawnKindDef[defName["SMP_Tortie"]/canArriveManhunter</xpath>
+      <value><canArriveManhunter>false</canArriveManhunter></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/PawnKindDef[defName="SMP_Tortie"]</xpath>
+      <value><canArriveManhunter>false</canArriveManhunter></value>
+    </nomatch>
+  </Operation>
+</Patch>

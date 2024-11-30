@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/PawnKindDef[defName="AEXP_CatAbyssinian"]/canArriveManhunter</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/PawnKindDef[defName["AEXP_CatAbyssinian"]/canArriveManhunter</xpath>
+      <value><canArriveManhunter>false</canArriveManhunter></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/PawnKindDef[defName="AEXP_CatAbyssinian"]</xpath>
+      <value><canArriveManhunter>false</canArriveManhunter></value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/PawnKindDef[defName="AEXP_CatBengal"]/canArriveManhunter</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/PawnKindDef[defName["AEXP_CatBengal"]/canArriveManhunter</xpath>
+      <value><canArriveManhunter>false</canArriveManhunter></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/PawnKindDef[defName="AEXP_CatBengal"]</xpath>
+      <value><canArriveManhunter>false</canArriveManhunter></value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/PawnKindDef[defName="AEXP_CatBritishShorthair"]/canArriveManhunter</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/PawnKindDef[defName["AEXP_CatBritishShorthair"]/canArriveManhunter</xpath>
+      <value><canArriveManhunter>false</canArriveManhunter></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/PawnKindDef[defName="AEXP_CatBritishShorthair"]</xpath>
+      <value><canArriveManhunter>false</canArriveManhunter></value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/PawnKindDef[defName="AEXP_CatMaineCoon"]/canArriveManhunter</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/PawnKindDef[defName["AEXP_CatMaineCoon"]/canArriveManhunter</xpath>
+      <value><canArriveManhunter>false</canArriveManhunter></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/PawnKindDef[defName="AEXP_CatMaineCoon"]</xpath>
+      <value><canArriveManhunter>false</canArriveManhunter></value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/PawnKindDef[defName="AEXP_CatMunchkin"]/canArriveManhunter</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/PawnKindDef[defName["AEXP_CatMunchkin"]/canArriveManhunter</xpath>
+      <value><canArriveManhunter>false</canArriveManhunter></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/PawnKindDef[defName="AEXP_CatMunchkin"]</xpath>
+      <value><canArriveManhunter>false</canArriveManhunter></value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/PawnKindDef[defName="AEXP_CatNorwegianForest"]/canArriveManhunter</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/PawnKindDef[defName["AEXP_CatNorwegianForest"]/canArriveManhunter</xpath>
+      <value><canArriveManhunter>false</canArriveManhunter></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/PawnKindDef[defName="AEXP_CatNorwegianForest"]</xpath>
+      <value><canArriveManhunter>false</canArriveManhunter></value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/PawnKindDef[defName="AEXP_CatPersian"]/canArriveManhunter</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/PawnKindDef[defName["AEXP_CatPersian"]/canArriveManhunter</xpath>
+      <value><canArriveManhunter>false</canArriveManhunter></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/PawnKindDef[defName="AEXP_CatPersian"]</xpath>
+      <value><canArriveManhunter>false</canArriveManhunter></value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/PawnKindDef[defName="AEXP_CatSiamese"]/canArriveManhunter</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/PawnKindDef[defName["AEXP_CatSiamese"]/canArriveManhunter</xpath>
+      <value><canArriveManhunter>false</canArriveManhunter></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/PawnKindDef[defName="AEXP_CatSiamese"]</xpath>
+      <value><canArriveManhunter>false</canArriveManhunter></value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/PawnKindDef[defName="AEXP_CatSomali"]/canArriveManhunter</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/PawnKindDef[defName["AEXP_CatSomali"]/canArriveManhunter</xpath>
+      <value><canArriveManhunter>false</canArriveManhunter></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/PawnKindDef[defName="AEXP_CatSomali"]</xpath>
+      <value><canArriveManhunter>false</canArriveManhunter></value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/PawnKindDef[defName="AEXP_CatSphynx"]/canArriveManhunter</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/PawnKindDef[defName["AEXP_CatSphynx"]/canArriveManhunter</xpath>
+      <value><canArriveManhunter>false</canArriveManhunter></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/PawnKindDef[defName="AEXP_CatSphynx"]</xpath>
+      <value><canArriveManhunter>false</canArriveManhunter></value>
+    </nomatch>
+  </Operation>
+</Patch>
